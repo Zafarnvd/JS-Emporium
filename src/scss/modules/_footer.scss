@@ -1,0 +1,189 @@
+footer {
+    .quality {
+        display: flex;
+
+        i {
+            padding-top: 5%;
+            padding-bottom: 10%;
+        }
+
+
+        .bg-blanc {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 2% 3%;
+            background-color: rgb(243, 242, 242);
+
+            a {
+                border-radius: 3px;
+                border: red;
+                color: white;
+                background-color: black;
+                text-transform: uppercase;
+                width: 30%;
+                margin: auto;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .bg-blanc {
+                a {
+                    width: 17%;
+                }
+            }
+        }
+
+        @media screen and (min-width: 800px) and (max-width: 1170px) {
+            .bg-blanc {
+                a {
+                    width: 45%;
+                }
+            }
+        }
+
+        .bg-rouge {
+            color: white;
+            background-color: red;
+            padding: 2% 3%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+
+            a {
+                border-radius: 3px;
+                border: red;
+                color: black;
+                background-color: white;
+                text-transform: uppercase;
+                width: 30%;
+                margin: auto;
+            }
+        }
+
+        @media screen and (max-width: 800px) {
+            .bg-rouge {
+                a {
+                    width: 17%;
+                }
+            }
+        }
+
+        @media screen and (min-width: 800px) and (max-width: 1170px) {
+            .bg-rouge {
+                a {
+                    width: 45%;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .quality {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+
+    // .us {
+    //     // width: auto;
+    //     .container {
+    //         padding-right: 0;
+    //         padding-left: 0;
+    //         margin-left: 0;
+    //         .about-us {
+    //             background-color: rgb(78, 78, 78);
+    //             width: 100vw;
+    //         }
+
+    //         .kopyright {
+        //             background-color: black;
+    //             color: white;
+    //         }
+    //     }
+    // }
+    .us {
+        // background-color: rgb(27, 27, 27);
+        background-color: #343A40;
+        margin-top: 3%;
+        
+        .container {
+            padding: 5% 10%;
+            
+            .about-us {
+                
+                .about {
+                    color: rgb(117, 115, 115);
+                    
+                    h6 {
+                        padding-bottom: 5%;
+                    }
+                }
+                
+                .posts {
+                    color: whitesmoke;
+                    
+                    h6 {
+                        padding-bottom: 5%;
+                    }
+                    @media screen and (min-width: 200px) and (max-width: 992px) {
+                        padding-top: 5%;
+                    }
+
+                    ul {
+                        
+                        li {
+                            padding-bottom: 10%;
+                            list-style: none;
+                        }
+                    }
+                }
+
+                .tag {
+                    h6 {
+                        padding-bottom: 5%;
+                    }
+                    
+                    button {
+                        background-color: transparent;
+                        border-radius: 3px;
+                        border: rgb(141, 138, 138) solid 1px;
+                        color: rgb(117, 115, 115);
+                        padding: 2%;
+                        margin: 2%;
+                    }
+                }
+            }
+            @media screen and (max-width: 800px) {
+                .bg-blanc {
+                    a {
+                        width: 17%;
+                    }
+                }
+            }
+            
+            @media screen and (min-width: 800px) and (max-width: 1000px) {
+                .about-us {
+                    display: flex;
+                    flex-direction: row;
+                    background-color: red;
+                }
+            }
+        }
+        
+        .kopyright {
+            background-color: black;
+            color: rgb(117, 115, 115);
+
+            h5 {
+
+                display: flex;
+                justify-content: center;
+                padding-top: 1%;
+                padding-bottom: 2%;
+            }
+        }
+    }
+}

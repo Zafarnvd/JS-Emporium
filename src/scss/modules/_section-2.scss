@@ -1,0 +1,344 @@
+.products {
+    .product-1 {
+        .product-1-1 {
+            display: flex;
+            // justify-content: center;
+            text-align: center;
+            justify-content: space-around;
+            margin: 0 15%;
+            .article {
+
+                // margin: 0 10px;
+                position: relative;
+                margin: auto;
+                overflow: hidden;
+                transition: 5s;
+
+                img {
+                    width: 95%;
+                    height: 70%;
+                    transition: all 1s;
+                    // &:hover{
+                    //     width: 200%;
+                    //     transform: scale(1.2);
+                    // } 
+                }
+
+                .detail {
+                    color: white;
+                    // position: absolute;
+                    // bottom: -50%;
+                    // z-index: -9;
+                    transition: 1s;
+                    opacity: 0.9;
+                    
+                    span{
+                        padding: 6%;
+                    }
+                    
+                    
+                    .view {
+                        // overflow: scroll;
+                        background-color: none;
+                        color: transparent;
+                    }
+
+                    .add {
+                        background-color: none;
+                        color: transparent;
+                    }
+                }
+                &:hover{
+                    .detail{
+                        // transform: scale();
+                        transform: translateY(-155%);
+                        .view {
+                            background-color: black;
+                            color: white;
+                        }
+        
+                        .add {
+                            background-color: red;
+                            color: white;
+                        }
+                    }
+                }
+
+                p {
+                    color: red;
+
+                    span {
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+                }
+
+                .centrer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    justify-content: space-evenly;
+
+                    .sale {
+                        border-radius: 50%;
+                        border: red solid;
+                        background-color: red;
+
+                        p {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            .product-1-1 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .product-1-2 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .product-1-3 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            // .discovery {
+            //     .discover {
+            //         .discover1 {
+            //             text-align: center;
+            //             margin-bottom: 5%;
+            //         }
+            //         .discover2{
+            //             button{
+
+            //                 margin-top: 35%;
+            //             }
+            //         }
+            //     }
+            // }
+        }
+
+        .product-1-2 {
+            display: flex;
+            // justify-content: center;
+            text-align: center;
+            justify-content: space-around;
+            margin: 0 15%;
+
+            .article {
+                position: relative;
+                margin: auto;
+                overflow: hidden;
+                transition: 5s;
+
+                // margin: 0 10px;
+                img {
+                    width: 95%;
+                    height: 70%;
+                    transition: all 1s;
+                    // &:{
+                    //     width: 200%;
+                    //     transform: scale(1.2);
+                    // } 
+                }
+
+                .detail {
+                    color: white;
+                    // position: absolute;
+                    // bottom: -50%;
+                    // z-index: 9;
+                    transition: 1s;
+                    opacity: 0.9;
+
+                    span{
+                        padding: 6%;
+                    }
+
+                    .view {
+                        background-color: black;
+                    }
+
+                    .add {
+                        background-color: red;
+                    }
+                }
+                &:hover{
+                    .detail{
+                        transform: scale();
+                        transform: translateY(-100%);
+                    }
+                }
+
+                p {
+                    color: red;
+
+                    span {
+                        color: grey;
+                        text-decoration: line-through;
+                    }
+                }
+
+                .centrer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    justify-content: space-evenly;
+
+                    .sale {
+                        border-radius: 50%;
+                        border: red solid;
+                        background-color: red;
+
+                        p {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .product-1-3 {
+            display: flex;
+            // justify-content: center;
+            text-align: center;
+            justify-content: space-around;
+            margin: 0 15%;
+
+            .article {
+                position: relative;
+                margin: auto;
+                overflow: hidden;
+                transition: 5s;
+
+                // margin: 0 10px;
+                img {
+                    width: 95%;
+                    height: 70%;
+                    transition: all 1s;
+                    // &:hover{
+                    //     width: 200%;
+                    //     transform: scale(1.2);
+                    // } 
+                }
+
+                .detail {
+                    color: white;
+                    // position: absolute;
+                    // bottom: -50%;
+                    // z-index: 9;
+                    transition: 1s;
+                    opacity: 0.9;
+
+                    span{
+                        padding: 6%;
+                    }
+
+                    .view {
+                        background-color: black;
+                    }
+
+                    .add {
+                        background-color: red;
+                    }
+                }
+                &:hover{
+                    .detail{
+                        transform: scale();
+                        transform: translateY(-100%);
+                    }
+                }
+
+                p {
+                    color: red;
+
+                    span {
+                        color: grey;
+                    }
+                }
+
+                .centrer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    justify-content: space-evenly;
+
+                    .sale {
+                        border-radius: 50%;
+                        border: red solid;
+                        background-color: red;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .discovery {
+            display: flex;
+            justify-content: center;
+            background-image: url(../../../public/img/cta-bg.jpg);
+            min-height: 100%;
+            height: 400px;
+            background-attachment: fixed;
+
+            .discover {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                z-index: +1;
+                flex-direction: auto;
+
+                .discover1 {
+                    position: absolute;
+                    // z-index: +1;
+                    color: white;
+                }
+
+                .discover2 {
+                    display: flex;
+                    justify-content: center;
+
+                    button {
+                        position: absolute;
+                        // z-index: +1;
+                        color: white;
+                        background-color: red;
+                        border: red;
+                        border-radius: 10px;
+                        // margin-top: 50px;
+                    }
+                }
+
+                // img{
+                //     position: relative;
+                //     margin: 0;
+                //     // background-repeat: fixed;
+                //     width: 100vw;
+                //     z-index: -1;
+                // }
+            }
+        }
+    }
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caroussel {
+    .flex {
+
+        img {
+            height: 30%;
+            width: 30%;
+        }
+    }
+}
