@@ -152,26 +152,39 @@
                     color: white;
                     // position: absolute;
                     // bottom: -50%;
-                    // z-index: 9;
+                    // z-index: -9;
                     transition: 1s;
                     opacity: 0.9;
-
+                    
                     span{
                         padding: 6%;
                     }
-
+                    
+                    
                     .view {
-                        background-color: black;
+                        // overflow: scroll;
+                        background-color: none;
+                        color: transparent;
                     }
 
                     .add {
-                        background-color: red;
+                        background-color: none;
+                        color: transparent;
                     }
                 }
                 &:hover{
                     .detail{
-                        transform: scale();
-                        transform: translateY(-100%);
+                        // transform: scale();
+                        transform: translateY(-155%);
+                        .view {
+                            background-color: black;
+                            color: white;
+                        }
+        
+                        .add {
+                            background-color: red;
+                            color: white;
+                        }
                     }
                 }
 
@@ -231,26 +244,39 @@
                     color: white;
                     // position: absolute;
                     // bottom: -50%;
-                    // z-index: 9;
+                    // z-index: -9;
                     transition: 1s;
                     opacity: 0.9;
-
+                    
                     span{
                         padding: 6%;
                     }
-
+                    
+                    
                     .view {
-                        background-color: black;
+                        // overflow: scroll;
+                        background-color: none;
+                        color: transparent;
                     }
 
                     .add {
-                        background-color: red;
+                        background-color: none;
+                        color: transparent;
                     }
                 }
                 &:hover{
                     .detail{
-                        transform: scale();
-                        transform: translateY(-100%);
+                        // transform: scale();
+                        transform: translateY(-155%);
+                        .view {
+                            background-color: black;
+                            color: white;
+                        }
+        
+                        .add {
+                            background-color: red;
+                            color: white;
+                        }
                     }
                 }
 

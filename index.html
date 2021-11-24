@@ -10,29 +10,68 @@
 </head>
 
 <body>
-    <header class="navs">
-        <!-- <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label> -->
-        <!-- titre -->
-        <h1>emporium</h1>
-        <!-- navbar -->
-        <label for="toggle" for="transition 5s">
-            <i class="fas fa-bars"></i>
-        </label>
-        <input type="checkbox" id="toggle">
-        <div class="navbar">
-            <a class="nav">HOME</a>
-            <a class="nav">PRODUCT</a>
-            <a class="nav">BLOG</a>
-            <a class="nav">ELEMENTS</a>
-            <a class="nav">ABOUT</a>
-            <a class="nav">CONTACT</a>
-            <div class="darkk">
-                <a><button class="blanc"></button></a>
-                <a><button class="noir"></button></a>
-                <a class="connexion">CONNEXION</a>
+    <div class="hide"></div>
+    <header>
+        <nav class="navs">
+
+            <!-- <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label> -->
+            <!-- titre -->
+            <h1 class="empo">emporium</h1>
+            <!-- navbar -->
+            <label for="toggle" for="transition 5s">
+                <i class="fas fa-bars"></i>
+            </label>
+            <input type="checkbox" id="toggle">
+            <div class="navbar">
+                <a class="nav">HOME</a>
+                <a class="nav">PRODUCT</a>
+                <a class="nav">BLOG</a>
+                <a class="nav">ELEMENTS</a>
+                <a class="nav">ABOUT</a>
+                <a class="nav">CONTACT</a>
+                <div class="darkk">
+                    <a><button class="blanc"></button></a>
+                    <a><button class="noir"></button></a>
+                    <a class="connexion">CONNEXION</a>
+                </div>
+            </div>
+        </nav>
+        <div id="pageConnexion">
+            <div id="numero1">
+                <img src="./public/img/logo.png" alt="" id="logoConnexion" />
+                <button id="closeWindow">X</button>
+            </div>
+            <div id="btnChoix">
+                <button id="subCo" style="margin-right: 2%">Connexion</button>
+                <button id="inscription">Inscription</button>
+            </div>
+            <div id="grosseDiv">
+                <span>Email</span>
+                <label for="email"><input type="text" placeholder="abcdef@gmail.com" /></label>
+                <p>We'll never share your email with anyone else</p>
+                <span>Password</span>
+                <label for="password"><input type="text" placeholder="*******" /></label>
+                <div id="formulaireNvx">
+                    <span>Confirm Password</span>
+                    <label class="reconfirm" for="password"><input type="text" placeholder="*******" /></label>
+                    <div>
+                        <input type="checkbox" /><span>Homme</span>
+                        <input type="checkbox" /><span>Femme</span>
+                    </div>
+                </div>
+                <div>
+                    <input id="inputCo" type="checkbox" /><span>Check me out</span>
+                </div>
+                <button style="background-color: blue;">connexion</button>
+                <div class="rs" style="margin-top: 3%;">
+                    <i class="fab fa-facebook-f" style="color: blue;"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-snapchat-ghost" style="color: yellow;"></i>
+                    <i class="fas fa-laptop-code"></i>
+                </div>
             </div>
         </div>
     </header>
@@ -190,9 +229,9 @@
         </div>
     </section>
     <!-- ------------------------------ caroussel ------------------------------ -->
-    <section class="caroussel">
-        <h4>Hot Fashion Products</h4>
-        <div class="container">
+    <!-- <section class="caroussel"> -->
+         <h4>Hot Fashion Products</h4><br><br><br>
+        <!--<div class="container">
             <div class="box">
                 <img src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
                 <h4>Luxury Sofa</h4>
@@ -225,9 +264,9 @@
                 <img src="./public/img/products_mini/product-shoes.jpg" alt="">
                 <h4>Minimal Shoes</h4>
                 <p>60.00€</p>
-            </div>
-        </div>
-    </section>
+            </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
     <footer>
         <div class="quality">
             <!-- <div> -->
@@ -308,8 +347,8 @@
 
 
 
-        
-    
+
+
 
 
 
